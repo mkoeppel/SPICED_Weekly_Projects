@@ -100,7 +100,7 @@ def get_song_lyrics(artist_songs):
             request = requests.get(url)
             file.write(request.text)
 
-#get_song_lyrics(artist_songs)
+get_song_lyrics(artist_songs)
 
 def word_cloud_corpi(artists_list):
     '''
